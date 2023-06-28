@@ -44,8 +44,6 @@ async function addContact(name, email, phone) {
   return newContact;
 }
 
-getContactById('05olLMgyVQdWRwgKfg5J6');
-
 module.exports = {
   listContacts,
   getContactById,
